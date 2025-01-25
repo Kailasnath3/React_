@@ -1,0 +1,56 @@
+/* Footer.css */
+.bg-custom{
+    background-color: #2D5C4B;
+}
+
+
+
+.custom-margin-footer {
+    margin-top: 105px; /* Custom margin for spacing */
+    position: relative; /* Ensure footer aligns properly */
+    bottom: 0;
+}
+
+/* Footer Color and Text */
+.custom-color-footer {
+    color: #32fd32; /* White color for footer text */
+}
+
+/* General Row and Column Adjustments */
+footer .row {
+    margin-bottom: 0; /* Remove unnecessary spacing between rows */
+}
+
+footer .col-12 {
+    margin-bottom: 0; /* Remove spacing between columns */
+}
+
+/* Social Media Icon Spacing */
+footer .list-inline-item {
+    margin: 0 10px; /* Add spacing between icons */
+}
+
+/* Footer Links */
+footer a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Remove Extra White Space */
+body {
+    margin: 0; /* Reset body margins */
+    padding: 0; /* Reset body padding */
+}
+
+html, body {
+    height: 100%; /* Ensure the footer sticks to the bottom */
+}
+
+footer {
+    margin-bottom: 0; /* Remove bottom margin */
+    padding-bottom: 0; /* Remove extra padding at the bottom */
+}

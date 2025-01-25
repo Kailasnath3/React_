@@ -1,0 +1,62 @@
+/* General Styling */
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  h2 {
+    font-weight: 700;
+    color: gold;
+  }
+  
+  /* Carousel Styling */
+  .carousel-item img {
+    height: 100vh;
+    object-fit: cover;
+  }
+  
+  .carousel-caption h2 {
+    color: white;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Services Section */
+  .services-section {
+    padding: 50px 0;
+  }
+  
+  .services-section .card {
+    border-radius: 10px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .services-section .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .services-section img {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  /* Trekking Section */
+  .trekking-img {
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .card-price {
+    font-weight: bold;
+    color: green;
+  }
+  
+  /* Partners Section */
+  .partners-section .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  

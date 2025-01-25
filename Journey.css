@@ -1,0 +1,225 @@
+/* Apply Oswald font to the entire page */
+body {
+    background-color: #f4f4f4; /* Light gray background for a clean look */
+    color: #333; /* Dark gray text for readability */
+    font-family: 'Oswald', sans-serif;
+    line-height: 1.6;
+    margin-top: 80px; /* Space for the navbar */
+}
+
+/* Specials Carousel */
+#specials {
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    object-fit: cover;
+}
+
+.carousel-caption {
+    color: white;
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 300;
+    z-index: 10;
+}
+
+/* Marquee Section */
+.marquee {
+    background-color: #2D5C4B;
+    padding: 10px 0;
+}
+
+.marquee h2 {
+    color: #ffffff;
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+/* Green Video Section */
+.green-video {
+    background-color: #2D5C4B;
+    padding: 40px 20px;
+    color: #ffffff;
+    margin-top: 100px;
+  }
+  
+  .green-video .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .video-content {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap for responsiveness */
+    align-items: center;
+    gap: 20px; /* Space between items */
+  }
+  
+  .video-container {
+    flex: 1 1 50%; /* 50% width, adjusts as needed */
+  }
+  
+  .video-container video {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Rounded corners for aesthetics */
+  }
+  
+  .text-container {
+    flex: 1 1 50%;
+  }
+  
+  .text-container h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .text-container p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 1024px) {
+    .text-container h2 {
+      font-size: 1.8rem;
+    }
+  
+    .text-container p {
+      font-size: 1rem;
+    }
+    .carousel-caption {
+        color: white;
+        text-align: left;
+        font-size: 2rem;
+        font-weight: 300;
+        z-index: 10;
+       
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .video-content {
+      flex-direction: column; /* Stack video and text vertically */
+      text-align: center;
+    }
+  
+    .text-container {
+      margin-left: 0; /* Remove margin for center alignment */
+    }
+  
+    .text-container h2 {
+      font-size: 1.6rem;
+      margin-right: 35px;
+    }
+  
+    .text-container p {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .green-video {
+      padding: 20px 10px; /* Reduce padding on small screens */
+    }
+  
+    .text-container h2 {
+      font-size: 1.4rem;
+      margin-right: 35px;    
+    }
+  
+    .text-container p {
+      font-size: 0.8rem;
+      margin-right: 30px;
+    }
+  }
+  
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.video-container {
+    flex: 1;
+    max-width: 50%;
+}
+
+.video-container video {
+    width: 100%;
+    height: auto;
+}
+
+.text-container {
+    flex: 1;
+    margin-left: 20px;
+}
+
+/* Card Section */
+.card-section {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+}
+
+.card {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+    margin-bottom: 30px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-body {
+    flex-grow: 1;
+}
+
+.card-titles {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #2D5C4B;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
+    font-weight: 300;
+}
+
+/* Card image */
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
+
+.equal-height {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.equal-height .card-body {
+    flex-grow: 1;
+}
+
+.forest-heading
+{
+    margin-left: 50px;
+}
+
+.card:hover {
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  

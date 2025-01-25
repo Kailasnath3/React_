@@ -1,0 +1,304 @@
+/* Global styles */
+body {
+    background-color: #f4f4f4; /* Light gray background for a clean look */
+    color: #333; /* Dark gray text for readability */
+    font-family: 'Oswald', sans-serif;
+    line-height: 1.6;
+}
+
+.carousel-inner {
+    width: 100vw;
+    overflow: hidden;
+}
+
+.carousel-item {
+    height: 100vh;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.text-darks {
+    color: black !important;
+}
+
+
+
+
+
+
+/* Carousel Styling */
+.carousel-inner {
+    width: 100vw;
+    overflow: hidden;
+}
+
+.carousel-item {
+    height: 100vh;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+
+
+/* Ensure the carousel image covers the navbar */
+#specials {
+    position: relative;
+    z-index: 1;
+}
+
+
+.marquee {
+    background-color: #2D5C4B;
+}
+
+.btn {
+    margin-bottom: 45px;
+}
+
+
+/* Video Section Styling */
+.video {
+    margin-top: 60px;
+    background-color: #f4f4f4;
+    padding: 40px 20px;
+  }
+  
+  .video-heading {
+    font-size: 2.5rem;
+    color: #2D5C4B;
+    margin-bottom: 10px;
+  }
+  
+  .video-subheading {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .button-container {
+    margin-top: 20px;
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 1024px) {
+    .video-heading {
+      font-size: 2rem;
+    }
+  
+    .video-subheading {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .video-heading {
+      font-size: 1.5rem;
+    }
+  
+    .video-subheading {
+      font-size: 0.9rem;
+    }
+  
+    .button-container {
+      margin-top: 15px;
+    }
+  }
+  
+
+
+
+
+
+.btn-lightgreen{
+    background-color: #2D5C4B;
+    border-radius: 20px;
+    padding:15px 15px;
+}
+
+.lightgreen {
+    background-color: #2D5C4B;
+    margin-top: 30px;
+}
+
+.container h1 {
+    padding-top: 20px; /* Adjust this value as needed */
+}
+
+.container p {
+    padding-left: 60px;
+}
+
+.image-strip {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* General Card Styling */
+.card {
+    border: none; /* Remove default border */
+    border-radius: 12px; /* Rounded corners */
+    overflow: hidden; /* Ensure the image stays within bounds */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover effect */
+    display: flex;
+    flex-direction: column;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+/* Card Header Styling */
+.card-header {
+    padding: 0; /* Remove padding */
+}
+
+/* Uniform Image Styling */
+.card-img-top {
+    width: 100%;
+    height: 5px; /* Reduced height for more compact cards */
+    object-fit: cover; /* Crop images to fit within the defined height */
+}
+
+/* Card Body Styling */
+.card-body {
+    padding: 5px; /* Reduced padding for a tighter layout */
+    background-color: #fff; /* White background for clarity */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Align content closer together */
+}
+
+/* Card Title */
+.card-title {
+    font-size: 1.15rem; /* Reduced title font size */
+    margin-bottom: 6px; /* Tighter spacing between title and text */
+}
+
+/* Card Text */
+.card-text {
+    font-size: 0.9rem; /* Smaller text for the body */
+    color: #6c757d; /* Subtle gray color */
+    margin: 0; /* Remove extra margin */
+}
+
+/* Uniform Card Heights */
+.h-100 {
+    height: 100%;
+}
+
+/* Responsive Adjustments */
+
+/* Medium devices (tablets) */
+@media (max-width: 1024px) {
+    .card-img-top {
+        height: 110px; /* Adjust image height for smaller screens */
+    }
+
+
+}
+
+/* Small devices (phones) */
+@media (max-width: 767px) {
+    .card-img-top {
+        height: 100px; /* Adjust image height for smaller screens */
+    }
+
+    /* Stack cards vertically on small screens */
+    .col-12 {
+        flex: 0 0 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+.image-strip {
+    position: relative;
+  }
+  
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin: 5px 0;
+  }
+  
+  .img-fluid {
+    width: 100%;
+    height: auto;
+    z-index: 1; /* Image will remain behind the text */
+  }
+    
+
+  .image-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+.video-buttons{
+    background-color: darkgreen;
+    border-radius: 20px;
+    padding:10px 10px;
+}
+
+.margins{
+    margin-top: 20px;
+}
+
